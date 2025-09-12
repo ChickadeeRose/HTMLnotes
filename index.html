@@ -1,5 +1,34 @@
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            p
+            {
+                font-size: 10;
+                font-weight: 800;
+            }
+            header
+            {
+                width: 800px;
+                height: 150px;
+                background-color: #ccc;
+                color: #66f;
+                padding-top: 20px;
+                text-align: center;
+            }
+            main
+            {
+                width: 790px;
+                padding: 5px;
+                background-color: #ccc;
+            }
+            section
+            {
+                background-color: rgba(255,255,255,0.5);
+                padding: 5px;
+                border-radius: 30px 0px 0px 0px;
+            }
+        </style>
         <title>Notes Page | Home</title>
     </head>
     <body>
@@ -19,14 +48,21 @@
         </nav>
         <main>
             <section>
-                <img src="images/WellHelloThere.png" height="100%" alt="Well hello there, GoodTimesWithScar here">
+                <h1>CSS Notes</h1>
+                <h3>Syntax</h3>
+                <p>Style="{Atrribute: value;}"</p>
+                <h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bolder; font-size: 12;">Locations of CSS</h3>
+                <p>You can do your CSS style in 3 places<br>- Inline<br>- Document Head<br>- External style sheet</p>
+                <p>There is an overwrite order</p>
+                <h3>3 Ways to apply styles</h3>
+                <p>The three ways to apply styles to a block of html<br>- Hijack the HTML tag<br>- We define a class and then apply it<br>- We define an ID and apply it</nr></p>
             </section>
             <aside>
 
             </aside>
         </main>
-        <footer>
-            
+        <footer style="border-width: 2px; border-color: #000; border-style: solid;">
+            <span style="border:2px solid #00F; font-style: italic;">&copy; Annabelle Sawatzki </span>| 2025
         </footer>
     </body>
 </html>
